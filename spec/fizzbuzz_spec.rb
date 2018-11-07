@@ -1,4 +1,4 @@
-require_relative '/home/plucky-snippet-8616/rspec-fizzbuzz-dumbo-web-111918/fizzbuzz.rb'
+require_relative '../fizzbuzz.rb'
 
 require_relative './spec_helper.rb'
 # We are missing a 'require_relative' here. Check README.md for instructions and an explanation! 
