@@ -3,7 +3,13 @@
 def fizzbuzz(num)
   response = ''
   if (num % 3 == 0) && (num % 5 == 0)
-    nil
-  elsif num % == 0
+    response = 'FizzBuzz'
+  elsif num % 3 == 0
+    response = 'Fizz'
+  elsif num % 5 == 0
+    response = 'Buzz'
+  else
+    response = nil
   end
+  response
 end
